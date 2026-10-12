@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://cm7rd6dlqe1a"]
+
+[ext_resource type="Script" uid="uid://dc0svl7l50w5e" path="res://main.gd" id="1_ig7tw"]
+
+[node name="Main" type="Node2D" unique_id=1338953243]
+script = ExtResource("1_ig7tw")
+
+[node name="Line2D" type="Line2D" parent="." unique_id=2003462254]
+width = 8.0
+default_color = Color(0, 18.892157, 0, 1)
+
+[node name="LevelLabel" type="Label" parent="." unique_id=6030950]
+offset_right = 40.0
+offset_bottom = 23.0
